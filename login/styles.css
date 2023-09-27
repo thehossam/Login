@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(roberto-h-qToVxSYXPYU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+form{
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+form h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: italic;
+}
+.box{
+    position: relative;
+    margin-bottom: 20px;
+    width: 300px;
+
+}
+.box input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 5px;
+    color: white;
+}
+.box input:focus{
+    outline: none;
+}
+.box input::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.chack{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chack label{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.chack a{
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.chack a:hover{
+    text-decoration: underline;
+}
+form .btn{
+    background-color: white;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 20px;
+    cursor: pointer;
+}
+form .register{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+form .register a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+form .register a:hover{
+    text-decoration: underline;
+}
